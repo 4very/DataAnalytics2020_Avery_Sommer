@@ -1,0 +1,12 @@
+library(MASS)
+attach(Boston)
+?Boston
+help(Boston)
+head(Boston)
+dim(Boston)
+names(Boston)
+nrow(Boston)
+str(Boston)
+ncol(Boston)
+summary(Boston)
+summary(Boston$crim)
